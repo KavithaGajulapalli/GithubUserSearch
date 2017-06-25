@@ -1,0 +1,30 @@
+<div  class='panel panel-primary  col-md-10'>
+         <div class="panel-heading">
+          <h2>GitHub User Lookup</h2>
+        </div>
+    <div class= 'panel-body'>
+     <div class='row col-md-10'>
+        <form #searchForm = "ngForm"  autocomplete="off" (ngSubmit) = search(searchForm)>
+             <input [(ngModel)] = "userName" name = "userName" id = "userName" type = 'text'  />
+            
+              <button  type = "submit"  class="btn btn-primary glyphicon glyphicon-search"> Search </button>
+                    
+        </form>
+     </div>
+     <div class = 'row col-md-10'>
+          <div *ngIf ='user'class='table col-md-5 table'>
+            <user-detail [user] = 'user' ></user-detail>
+                
+          </div>
+          <div *ngIf ='user && user?.public_repos>0' class = 'col-md-2'>
+            <button  type = "submit"  class = "btn btn-primary" (click)='showRepositories(user?.login)'> Show Repositories </button>
+                
+          </div>
+          <div *ngIf = 'repos && repos.length' class = ' col-md-5 table' id="Repos">
+            <user-repos [userRepos] ='repos'> </user-repos>
+          </div>
+     </div>
+
+    </div>
+ </div>
+ 

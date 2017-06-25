@@ -1,0 +1,42 @@
+[
+    {
+        "productId": 1,
+        "productName": "Milk",
+        "description": "Organic Whole Milk.",
+        "price": 10,
+        "starRating": 3.2,
+        "imageUrl": "http://www.albertsons.com/wp-content/uploads/2016/08/ALBC-IV00069679-O-Organics-Web-Page-Design_13.jpg"
+    },
+    {
+        "productId": 2,
+        "productName": "Eggs",
+        "description": "Organic Eggs",
+        "price": 6.99,
+        "starRating": 4.2,
+        "imageUrl": "http://www.albertsons.com/wp-content/uploads/2016/08/ALBC-IV00069679-O-Organics-Web-Page-Design_08.jpg"
+    },
+    {
+        "productId": 3,
+        "productName": "Milk Alternative",
+        "description": "Almond Milk",
+        "price": 8.9,
+        "starRating": 4.8,
+        "imageUrl": "http://www.albertsons.com/wp-content/uploads/2016/08/ALBC-IV00069679-O-Organics-Web-Page-Design_16.jpg"
+    },
+    {
+        "productId": 4,
+        "productName": "Meat",
+        "description": "Organic Meat",
+        "price": 11.55,
+        "starRating": 3.7,
+        "imageUrl": "http://www.albertsons.com/wp-content/uploads/2016/08/ALBC-IV00069679-O-Organics-Web-Page-Design_12.jpg"
+    },
+    {
+        "productId": 5,
+        "productName": "Coffee Beans",
+        "description": "Coffee Beans",
+        "price": 35.95,
+        "starRating": 4.6,
+        "imageUrl": "http://www.albertsons.com/wp-content/uploads/2016/08/ALBC-IV00069679-O-Organics-Web-Page-Design_17.jpg"
+    }
+]
